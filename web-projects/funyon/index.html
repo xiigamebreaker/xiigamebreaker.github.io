@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+        Noah Amman
+        CIS 130-101
+        Date: 2024-10-23
+        Assignment: Funyon Website
+        Purpose: Basic site structure and links to navigation + main stylesheet
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funyon</title>
+    <!-- Link order: navigation styles first, then the main stylesheet -->
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header: contains site title and mobile menu toggle -->
+    <header>
+        <h1>Welcome to the Funyon</h1>
+
+        <!--
+            Mobile menu toggle:
+            - The label acts as the visible hamburger icon (styled by .menu-icon)
+            - The hidden checkbox (#menu-check) is used to toggle the nav visibility
+        -->
+        <label for="menu-check" class="menu-icon">&#9776;</label>
+        <input type="checkbox" id="menu-check">
+
+        <!-- Primary navigation list. Items link to page sections by id. -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#story1">Story 1</a></li>
+                <li><a href="#story2">Story 2</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content wrapper: story cards live inside this container -->
+    <div class="story">
+        <!-- Story 1: example card with image and paragraph -->
+        <section id="story1" class="funyon">
+            <h2>The Boy Who Took Over</h2>
+            <img src="images/boy.jpg" alt="boy working on a laptop">
+            <p>
+                5 year old Noah Lott found his stepfather, Ben Over, CEO of Next Dream Tech, fast asleep at his home
+                office desk in the middle of the workday. In an hour and a half, he developed an app worth 1.4 million
+                dollars! Thanks to Noah Lott, the world's youngest self-made millionaire, there have been thousands of
+                happy customers. In an interview, his mother, Lee Ning Over, stated that she knew her son was bright,
+                but had no idea he was this level of genius!
+            </p>
+        </section>
+
+        <!-- Story 2: second example card -->
+        <section id="story2" class="funyon">
+            <h2>Cat Saves Firefighter</h2>
+            <img src="images/cat.jpg" alt="firefighter holding a cat">
+            <p>
+                In his first week as a firefighter, 21-year-old Julian 'Frankenstein' Gerrity was chased up a tree by a
+                stray dog. Luckily, Scuba Steve, the neighborhood cat, came to the rescue and chased the dog away so
+                that Frankenstein could safely come down from the tree and resume his shift at the fire station. Scuba
+                Steve is now an honorary firefighter friend with his own perch in the firehouse, where he can keep a
+                bird's-eye watch over the neighborhood.
+            </p>
+        </section>
+    </div>
+
+    <!-- Footer: copyright notice -->
+    <footer>&copy; 2025 Funyon</footer>
+</body>
+
+</html>

@@ -1,0 +1,455 @@
+.shadows-into-light-two-regular {
+    font-family: "Shadows Into Light Two", cursive;
+    /* Changed the font family to a different Google Font. */
+    font-weight: 400;
+    /* Changed the font weight to normal. */
+    font-style: normal;
+    /* Changed the font style to normal. */
+}
+
+
+
+.topnav {
+    position: sticky;
+    /* Makes the nav bar stick to the top when scrolling */
+    top: 0;
+    /* Sticks the nav bar to the top of the viewport */
+    z-index: 1000;
+    /* Ensures the nav bar stays above other content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Adds a subtle shadow for better visibility */
+}
+
+
+nav,
+footer {
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    background-color: #550C18;
+    /* Changed the background color to a dark maroon. */
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+    padding: 1rem;
+    /* Changed the padding to give more space inside the nav and footer. */
+    text-align: center;
+    /* Centered the text in the nav and footer. */
+}
+
+
+nav a {
+    color: #FAFAFA;
+    /* Changed the nav link color to snow white. */
+    text-decoration: none;
+    /* Removed the underline from the nav links. */
+    margin: 5px;
+    /* Added margin to give space between the nav links. */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    /* Added underline on hover for better interactivity. */
+    color: #C2E812;
+    /* Changed the hover color to lime zest. */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    /* Changed the font family to Arial for better readability. */
+    margin: 0;
+    /* Removed default margin. */
+    padding-bottom: 100px;
+    /* matches or slightly exceeds footer height */
+    line-height: 1.6;
+    /* Increased line height for better readability. */
+    background-color: #4E937A;
+    /* Changed the background color to sage green. */
+}
+
+
+h1 {
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+    font-size: 2.5rem;
+    /* Changed the font size to be larger. */
+    text-align: center;
+    /* Centered the text. */
+    margin: 40px 50px 0px 50px;
+    /* Changed the margin to give more space around the header. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    padding: 10px 10px;
+    /* Added padding to give space inside the border. */
+}
+
+
+.footer {
+    position: fixed;
+    /* Changed to fixed to keep the footer at the bottom of the viewport. */
+    bottom: 0;
+    /* Sticks the footer to the bottom of the viewport. */
+    width: 100%;
+    /* Makes the footer span the full width of the viewport. */
+    text-align: center;
+    /* Centered the text in the footer. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+    border-top: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    padding: 10px 0;
+    /* Changed the padding to give more space inside the footer. */
+    font-size: 0.9rem;
+    /* Changed the font size to be smaller. */
+}
+
+
+footer a {
+    color: #FAFAFA;
+    /* Changed the footer link color to snow white. */
+    text-decoration: none;
+    /* Removed the underline from the footer links. */
+    margin: 0 5px;
+    /* Added margin to give space between the footer links. */
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+    /* Added underline on hover for better interactivity. */
+    color: #C2E812;
+    /* Changed the footer link hover color to lime zest. */
+}
+
+
+img {
+    display: block;
+    /* Changed to block to remove extra space below the image. */
+    margin: 20px 20px 20px 20px;
+    /* Added margin to give space around the image. */
+    width: 400px;
+    /* Changed the width to be smaller. */
+    height: auto;
+    /* Maintains the aspect ratio of the image. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    border-radius: 10px;
+    /* Added border radius to give rounded corners. */
+    padding: 10px;
+    /* Added padding to give space between the image and border. */
+    background-color: #4E937A;
+    /* Added background color sage green to the image container for better visibility. */
+}
+
+
+table,
+tr,
+th,
+td {
+    border: 20px solid #550C18;
+    /* Changed the border color to a dark maroon and increased the border size. */
+    border-collapse: collapse;
+    /* Ensures borders are collapsed into a single border. */
+    opacity: 0.92;
+    /* Added slight transparency to the table for better aesthetics. */
+    border-radius: 20px;
+    /* Added border radius to give rounded corners. */
+}
+
+table {
+    margin: 100px 0px 0px 200px;
+    /* Changed the margin to give more space around the table. */
+    width: 80%;
+    /* Changed the width to be smaller. */
+}
+
+th,
+td {
+    padding: 10px;
+    /* Changed the padding to give more space inside the table cells. */
+    text-align: center;
+    /* Centered the text in table headers and cells. */
+}
+
+tr:nth-child(even) {
+    background-color: #9984D4;
+    /* Changed the even row color to lavender. */
+}
+
+tr:nth-child(odd) {
+    background-color: #C2E812;
+    /* Changed the odd row color to lime zest. */
+}
+
+.sidebar,
+th {
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+}
+
+.rooms {
+    background-image: url(images/lake.jpg);
+    /* Changed the background image to a different image. */
+    background-repeat: no-repeat;
+    /* Ensures the background image doesn't repeat. */
+    background-position: center;
+    /* Centers the background image. */
+    background-size: cover;
+    /* Ensures the background image covers the entire container. */
+    background-attachment: fixed;
+    /* Makes the background image fixed when scrolling. */
+    color: black;
+    /* Changed the text color to black for better readability against the background image. */
+
+}
+
+.container {
+    margin: auto;
+    /* Centered the container. */
+    width: 80%;
+    /* Changed the width to be smaller. */
+    text-align: left;
+    /* Left-aligned the text. */
+    background-color: #FAFAFA;
+    /* Changed the background color to snow white. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    padding: 25px;
+    /* Changed the padding to give more space inside the container. */
+    border-radius: 5px;
+    /* Added border radius to give rounded corners. */
+    margin-bottom: 10px;
+    /* Added margin to the bottom to give space from the footer. */
+    margin-top: 20px;
+    /* Added margin to the top to give space from the header. */
+}
+
+form {
+    margin: 20px 50px 20px 50px;
+    /* Changed the margin to give more space around the form. */
+    padding: 10px;
+    /* Added padding to give space inside the border. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+}
+
+label {
+    display: block;
+    /* Changed to block to make labels appear on their own line. */
+    padding-bottom: 5px;
+    /* Added padding to the bottom to give space between the label and input field. */
+    cursor: pointer;
+    /* makes the hand show over the label */
+}
+
+label input[type="checkbox"],
+label input[type="radio"],
+input[type="submit"],
+button,
+select {
+    cursor: pointer;
+    /* makes the hand show over these controls too */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 25%;
+    /* Changed the width to be smaller. */
+    margin-left: 25px;
+    /* Added margin to the left to give space between the label and input field. */
+    padding: 5px;
+    /* Added padding to give space inside the input field. */
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    width: auto;
+    /* Changed the width to auto to fit the content. */
+    margin-left: 0;
+    /* Removed the margin to align with the label. */
+    padding: 0;
+    /* Removed the padding to align with the label. */
+    accent-color: #9984D4;
+    /* Changed the accent color to dark maroon. */
+}
+
+select {
+    background-color: #FAFAFA;
+    /* snow white background */
+    border: 3px solid #9984D4;
+    /* lavender border */
+    border-radius: 5px;
+    /* rounded corners */
+    padding: 5px;
+    /* padding for better spacing */
+}
+
+select:hover {
+    background-color: #4E937A;
+    /* sage green on hover */
+    color: #FAFAFA;
+    /* snow white text on hover */
+    border-color: #550C18;
+    /* dark maroon border on hover */
+    box-shadow: 0 0 6px 2px #4E937A;
+    /* subtle sage glow on hover */
+}
+
+input[type="checkbox"]:hover,
+input[type="radio"]:hover,
+select:hover {
+    accent-color: #4E937A;
+    /* sage green on hover */
+    box-shadow: 0 0 5px 2px #4E937A;
+    /* subtle sage glow */
+}
+
+input[type="submit"] {
+    width: initial;
+    /* Changed the width to initial to fit the content. */
+    padding: 10px 20px;
+    /* Added padding to give space inside the button. */
+    margin-top: 10px;
+    /* Added margin to the top to give space from the input fields. */
+    margin-left: initial;
+    /* Changed the margin to initial to center the button. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+    font-size: 1rem;
+    /* Changed the font size to be larger. */
+    border: 4px solid #9984D4;
+    /* Changed the border color to lavender. */
+    cursor: pointer;
+    /* Changed the cursor to pointer to indicate it's clickable. */
+}
+
+.amenities {
+    text-align: left;
+    /* Left-aligned the text. */
+    display: inline-block;
+    /* Changed to inline-block to allow horizontal alignment. */
+    margin-left: 5px;
+    /* Added margin to the left to give space between the checkbox and text. */
+
+}
+
+#quote {
+    font-style: italic;
+    /* Italicized the quote text. */
+    text-align: center;
+    /* Centered the text. */
+    margin: 20px 50px 20px 50px;
+    /* Changed the margin to give more space around the header. */
+    padding: 10px;
+    /* Added padding to give space inside the border. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+}
+
+.fa-house {
+    color: #FAFAFA;
+    /* Changed the icon color to snow white. */
+    font-size: 2rem;
+    /* Changed the icon size to be larger. */
+    padding: 0 10px;
+    /* Added padding to give space around the icon. */
+}
+
+.float-left {
+    float: left;
+    /* Corrected the float direction to left. */
+}
+
+.float-right {
+    float: right;
+    /* Corrected the float direction to right. */
+}
+
+section {
+    position: relative;
+    /* Changed the position to relative to allow absolute positioning of child elements. */
+    display: flow-root;
+    /* Clears floats within the section */
+    margin: 80px 50px 80px 50px;
+    /* Changed the margin to give more space around the section. */
+    padding: 10px;
+    /* Added padding to give space inside the border. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+}
+
+
+h2 {
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+    font-size: 1.5rem;
+    /* Changed the font size to be larger. */
+    text-align: center;
+    /* Centered the text. */
+    margin: 40px 50px 20px 50px;
+    /* Changed the margin to give more space around the header. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    padding: 10px 10px;
+    /* Added padding to give space inside the border. */
+}
+
+h3 {
+    color: #FAFAFA;
+    /* Changed the text color to snow white. */
+    font-size: 1.2rem;
+    /* Changed the font size to be larger. */
+    text-align: center;
+    /* Centered the text. */
+    margin: 20px 50px 10px 50px;
+    /* Changed the margin to give more space around the header. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    border-radius: 10px;
+    /* Added border radius to give rounded corners. */
+    background-color: #550C18;
+    /* Changed the background color to dark maroon. */
+    padding: 10px 10px;
+    /* Added padding to give space inside the border. */
+}
+
+.callout {
+    position: absolute;
+    /* Changed the position to absolute to allow precise placement. */
+    bottom: 30px;
+    /* Positioned the callout to the top of the article. */
+    right: 470px;
+    /* Positioned the callout to the top-right corner of the article. */
+    border: 5px solid #9984D4;
+    /* Changed the border color to lavender. */
+    border-radius: 20px;
+    /* Added border radius to give rounded corners. */
+    background: #C2E812;
+    /* Changed the background color to a lime zest. */
+    color: black;
+    /* Changed the text color to black for better readability. */
+    padding: 6px 10px;
+    /* Changed the padding to give more space inside the callout. */
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Advising Appointment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav class="topnav" aria-label="Main">
+        <i class="fa-solid fa-house"></i>
+        <a href="index.html">Home</a> |
+        <a href="rooms.html">Rooms</a> |
+        <a href="request.html">Request a Quote</a>
+        <i class="fa-solid fa-house"></i>
+    </nav>
+
+    <div class="container">
+
+        <h1 class="shadows-into-light-two-regular" id="quote">Get Your Free Quote!</h1>
+        <form action="thankyou.html" method="get">
+
+            
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label for="fname">Name:
+                    <input type="text" name="fname" placeholder="First Name, Last Name" id="fname" required autofocus>
+                </label>
+
+                <label for="email">Email:
+                    <input type="email" name="email" placeholder="Email" id="email">
+                </label>
+
+                <label for="phone">Phone:
+                    <input type="tel" name="phone" placeholder="555-555-5555" id="phone">
+                </label>
+
+                <label for="contact-method">Best way to reach you:</label>
+                <select id="contact-method" name="contact-method">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                </select>
+
+                <p>Select Amenities or Services of interest:</p>
+
+                <label class="amenities" for="amenities-Dinner">
+                    <input type="checkbox" name="Amenities" value="Dinner" id="amenities-Dinner"> Dinner
+                </label>
+                <label class="amenities" for="amenities-Kayaking">
+                    <input type="checkbox" name="Amenities" value="Kayaking" id="amenities-Kayaking"> Kayaking
+                </label>
+                <label class="amenities" for="amenities-Breakfast">
+                    <input type="checkbox" name="Amenities" value="Breakfast" id="amenities-Breakfast"> Breakfast
+                </label>
+                <label class="amenities" for="amenities-Internet">
+                    <input type="checkbox" name="Amenities" value="Internet" id="amenities-Internet"> Internet
+                </label>
+
+                <p>Preferred Length of Stay:</p>
+                <label for="stay-1-2">
+                    <input type="radio" name="preferredstay" value="1-2 nights" id="stay-1-2" checked> 1-2 nights
+                </label>
+                <label for="stay-3-5">
+                    <input type="radio" name="preferredstay" value="3-5 nights" id="stay-3-5"> 3-5 nights
+                </label>
+                <label for="stay-1week">
+                    <input type="radio" name="preferredstay" value="1 week or more" id="stay-1week"> 1 week or more
+                </label>
+
+            </fieldset>
+
+            <input type="submit" value="Submit Order" class="submit">
+
+        </form>
+
+    </div>
+
+    <footer class="footer">&copy; 2025 Cozy Homes B&B &bull; Email us: <a
+            href="mailto:CozyHomesB&B@____.com">CozyHomesB&B</a>
+        &bull; Call us: <a href="tel:5555555555">555&#45;555&#45;5555</a></footer>
+</body>
+
+</html>

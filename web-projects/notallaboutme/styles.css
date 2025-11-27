@@ -1,0 +1,127 @@
+/* Name: Noah Amman
+Date: 09/08/2025
+Assignment: Pretty About You */
+
+body {
+    background-color: yellow;
+    background-image: url('images/nintendo.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 300px;
+}
+
+
+h1,
+h2 {
+    font-variant: small-caps;
+    color: red;
+    text-align: center;
+}
+
+main {
+    background-color: skyblue;
+    border: 5px solid black;
+    width: 75%;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 10px 20px 20px blueviolet;
+}
+
+nav,
+footer {
+    background-color: blueviolet;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: yellow;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    color: whitesmoke
+}
+
+a:hover {
+    background-color: blue;
+    color: yellow
+}
+
+p {
+    color: blue;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul,
+ol {
+    color: blueviolet;
+    font-size: 18px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.large-emoji {
+    font-size: 50px;
+}
+
+.big-caps {
+    font-variant: small-caps;
+    font-size: 24px;
+    color: blueviolet;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightgray;
+    box-shadow: 5px 10px 10px black;
+}
+
+#sports {
+    background-color: white;
+    border: 3px solid blueviolet;
+    box-shadow: 5px 10px 10px blueviolet;
+}
+
+#st-louis {
+    border: 3px solid red;
+    box-shadow: 5px 10px 10px black;
+}
+
+#pittsburgh {
+    border: 3px solid yellow;
+    box-shadow: 5px 10px 10px black;
+}
+
+#washington {
+    border: 3px solid red;
+    box-shadow: 5px 10px 10px black;
+}
+
+#triumph {
+    border: 6px dashed red;
+    box-shadow: 10px 15px 10px black;
+}
+
+#its-me {
+    border: 6px dotted black;
+    box-shadow: 10px 15px 10px red;
+}
