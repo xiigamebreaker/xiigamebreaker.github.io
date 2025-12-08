@@ -224,53 +224,95 @@ section {
     /* lighter teal on hover */
 }
 
-@media (min-width: 576px) {
 
-    /* On wider screens, show the nav bar horizontally */
+.headshot {
+    max-width: 300px;
+    /* or 150px, 250px—whatever size you want */
+    width: 100%;
+    /* makes it scale down on small screens */
+    height: auto;
+    /* keeps proper proportions */
+    display: block;
+    margin: 20px auto;
+    /* centers the picture */
+    border-radius: 10px;
+    /* optional: soft rounded corners */
+}
+
+footer {
+    position: fixed;
+    /* fix position on screen */
+    bottom: 0;
+    /* stick to the bottom */
+    width: 100%;
+    /* full width */
+    text-align: center;
+    /* Centered footer text */
+    padding: 10px;
+    /* Padding around footer */
+    background-color: #343434;
+    /* Dark background for footer */
+    color: white;
+    /* White text color */
+    margin-top: 20px;
+    /* Space above footer */
+}
+
+
+/* Two-column layout for sections */
+.two-column {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+/* Make each section share the row evenly */
+.two-column section {
+    flex: 1;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/* Desktop / larger screens: show full horizontal nav, hide hamburger */
+@media (min-width: 768px) {
     nav {
         display: block;
-        /* override mobile hide */
-        position: sticky;
-        /* make this block stick */
-        top: 0;
-        /* stick to the very top of the viewport */
-        z-index: 1000;
-        /* stay above the page content */
+        /* always show nav */
+        position: static;
+        /* let it sit in normal flow under header */
         background-color: #343434;
-        /* solid background behind header + menu */
     }
 
     .menu {
         display: flex;
         /* horizontal layout */
         justify-content: center;
-        /* center the menu */
         gap: 15px;
-        /* space between items */
     }
 
     .menu li {
         border: none;
-        /* remove borders for horizontal layout */
+        /* no boxy borders on desktop */
         padding: 5px 10px;
-        /* adjust padding for horizontal layout */
     }
 
     .menu-icon,
     #menu-check {
         display: none;
-        /* hide mobile menu elements */
+        /* hide hamburger + checkbox on desktop */
+    }
+
+    .two-column {
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;
     }
 }
 
-@media (min-width: 720px) {
-    section {
-        margin: 40px auto;
-        /* increase margin on larger screens */
-        max-width: 800px;
-        /* limit width for readability */
-    }
-}
 
 @media (min-width: 992px) {
     body {
