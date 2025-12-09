@@ -17,6 +17,10 @@ body {
     /* Dark text color for readability */
 }
 
+main {
+    padding-bottom: 60px;
+}
+
 .top-bar {
     position: sticky;
     /* make this block stick */
@@ -307,8 +311,9 @@ footer {
     }
 
     .two-column {
+        justify-content: center;
         flex-direction: row;
-        text-align: left;
+        text-align: flex-start;
         align-items: flex-start;
     }
 }
