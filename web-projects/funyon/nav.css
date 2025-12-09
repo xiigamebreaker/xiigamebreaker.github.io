@@ -1,0 +1,54 @@
+/* Noah Amman
+   CIS 130-101
+   Date: 2024-10-23
+   Assignment: Funyon Website
+*/
+
+/* ----------------------------------------------------------------------
+   Navigation / Menu styles
+   - Styles here control the mobile-first menu and the checkbox toggle
+   ---------------------------------------------------------------------- */
+.menu {
+    list-style: none; /* remove default bullets */
+    padding: 0; /* remove default padding on the list */
+}
+
+/* Individual menu items: padding and light border for touch targets */
+.menu li {
+    padding: 10px; /* clickable area */
+    border: 4px solid #ccc; /* light outline for separation */
+    border-radius: 5px; /* rounded corners for each item */
+}
+
+/* Links inside menu items should look like buttons */
+.menu li a {
+    text-decoration: none; /* remove underline */
+    color: #99D5C9; /* match site accent color */
+    display: block; /* make the link fill the list item */
+}
+
+/* Mobile menu icon (hamburger) styling */
+.menu-icon {
+    position: absolute;
+    top: 3px; /* small offset from top */
+    left: 10px; /* small offset from left */
+    font-size: 2em; /* visually large touch target */
+    cursor: pointer; /* indicate clickability */
+}
+
+/* By default, the navigation is hidden on narrow screens; shown through the
+   checkbox hack when #menu-check is checked. This keeps the markup simple.
+*/
+nav {
+    display: none;
+}
+
+/* When the hidden checkbox is checked, show the navigation (mobile toggle) */
+#menu-check:checked ~ nav {
+    display: block;
+}
+
+/* Hide the checkbox element visually but keep it accessible for the toggle */
+#menu-check {
+    display: none;
+}
