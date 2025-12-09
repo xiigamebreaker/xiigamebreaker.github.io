@@ -313,7 +313,7 @@ footer {
     .two-column {
         justify-content: center;
         flex-direction: row;
-        text-align: flex-start;
+        text-align: center;
         align-items: flex-start;
     }
 }
